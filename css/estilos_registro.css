@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #f7f7f7a2;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 470px;
+    height: 800px;
+    padding: 30px;
+    margin: 50px auto;
+    background: #ffffff;  
+    border: 1px solid rgba(189, 189, 189, 0.5);
+}
+
+.contenedor h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: #0095f6;
+    margin-top: 0;
+}
+
+.contenedor hr{
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(189, 189, 189, 0.5);
+}
+
+.contenedor .elemento label{
+    padding-left: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    background: #f7f7f7a2;
+    border: 1px solid rgba(189, 189, 189, 0.5);
+    padding: 10px 0 10px 5px;  
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #a9dbeed8;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.contenedor .elemento input[type="radio"]{
+    width: 5%;
+    margin-left: 0px;
+    min-height: 15px;
+    min-width: 15px;
+}
+
+.contenedor .elemento select{
+    width: 30%;
+    padding: 5px 30px 5px 0;
+    border: 1px solid rgba(189, 189, 189, 0.7);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.margen_labelRadio{
+    margin-right: 70px;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+span{
+    font-size: 15px;
+}
